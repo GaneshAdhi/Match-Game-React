@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-color: #2c0e3a;
+}
+
+.header-inner-card {
+  max-width: 1010px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 24px;
+}
+
+.list-item-head {
+  list-style-type: none;
+}
+
+.header-logo {
+  height: 30px;
+  width: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    height: 46px;
+  }
+}
+
+.header-score-and-time-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-score-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  font-family: 'Roboto';
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .header-score-text {
+    font-size: 1.2rem;
+  }
+}
+
+.header-score-span-text {
+  color: #fec653;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header-score-span-text {
+    font-size: 1.5rem;
+  }
+}
+
+.header-timer-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.timer-card-time-logo {
+  height: 24px;
+  width: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-card-time-logo {
+    height: 26px;
+    width: auto;
+  }
+}
+
+.timer-card-time-text {
+  font-family: 'Roboto';
+  color: #fec653;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .timer-card-time-text {
+    font-size: 1.5rem;
+  }
+}

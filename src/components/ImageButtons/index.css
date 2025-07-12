@@ -1,0 +1,18 @@
+.image-item {
+  list-style-type: none;
+  height: 70px;
+  width: 70px;
+}
+
+.image-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.image-of-button {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
