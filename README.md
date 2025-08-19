@@ -1,6 +1,6 @@
 In this project, let's build a **Match Game** by applying the concepts we have learned till now.
 
-<div>Link : <a href="https://rameshmatchplay.ccbp.tech/">https://rameshmatchplay.ccbp.tech/<a/></div>
+Live Preview: https://rammatchplyrt.ccbp.tech/
 
 ### Refer to the video below:
 
